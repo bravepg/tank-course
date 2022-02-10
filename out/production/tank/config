@@ -1,0 +1,6 @@
+initTankCount=10
+#fireStrategy
+goodFS=com.tripp.tank.FourDirFireStrategy
+badFS=com.tripp.tank.DefaultFireStrategy
+#colliders
+colliders=com.tripp.tank.chainOfRes.BulletTankCollider,com.tripp.tank.chainOfRes.TankTankCollider,com.tripp.tank.chainOfRes.TankWallCollider,com.tripp.tank.chainOfRes.BulletWallCollider
